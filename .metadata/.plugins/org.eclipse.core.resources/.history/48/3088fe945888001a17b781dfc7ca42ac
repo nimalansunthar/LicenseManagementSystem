@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: stream-book
+         
+         
+server:  port: 8082

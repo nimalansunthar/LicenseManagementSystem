@@ -1,0 +1,37 @@
+package com.lamin.licenses.clients;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
+import org.springframework.web.client.RestTemplate;
+
+import com.lamin.licenses.models.License;
+import com.lamin.licenses.models.Organization;
+
+@Component
+public class OrganizationRestTemplateClient {
+
+    @Autowired
+    RestTemplate restTemplate;
+
+    public Organization getOrganization(String organizationId){
+
+        ResponseEntity<Organization> restExchange = restTemplate.exchange("http://organizations-service/v1/organizations/{organizationId}",
+                        													HttpMethod.GET, null, Organization.class, organizationId);
+
+        return restExchange.getBody();
+    }
+
+	public List<Object> getDetectives(String organizationId) {
+		
+		ResponseEntity<Object[]> rest = restTemplate.exchange("http://detectives-service/v1/detectives",
+				HttpMethod.GET, null, Object[].class, organizationId);
+		
+		return Arrays.asList(rest.getBody());
+
+	}
+}

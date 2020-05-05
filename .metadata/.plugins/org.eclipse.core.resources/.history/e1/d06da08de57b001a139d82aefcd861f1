@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: licenses-service
+    
+eureka:  instance:    prefer-ip-address: true
+  client:    fetch-registry: true
+    register-with-eureka: true
+    service-url:      defaultzone: http://localhost:8761/eureka/
+      
+      
+logging:  level:
+    org.springframework: error
+    org.springframework.cloud.client.discovery.EnableDiscoveryClient: error
+    org.springframework.cloud.client.loadbalancer.LoadBalanced: error
+    org.springframework.cloud.netflix.eureka.EnableEurekaClient: error    

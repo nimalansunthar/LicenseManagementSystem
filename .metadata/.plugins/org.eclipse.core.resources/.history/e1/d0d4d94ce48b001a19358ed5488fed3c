@@ -1,0 +1,5 @@
+package com.lamin.producer.model;
+
+public class Book {
+
+}

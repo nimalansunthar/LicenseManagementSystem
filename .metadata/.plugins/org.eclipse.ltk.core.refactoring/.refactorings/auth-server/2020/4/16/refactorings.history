@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ServiceConfig.java&apos; to &apos;organization-service/src/main/java/com.lamin.organization.security&apos;&#x0D;&#x0A;- Original project: &apos;auth-server&apos;&#x0D;&#x0A;- Destination element: &apos;organization-service/src/main/java/com.lamin.organization.security&apos;&#x0D;&#x0A;- Original element: &apos;com.lamin.authserver.config.ServiceConfig.java&apos;" description="Copy compilation unit" destination="=organization-service/src\/main\/java&lt;com.lamin.organization.security" element1="/src\/main\/java&lt;com.lamin.authserver.config{ServiceConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1587338404208" units="1" version="1.0"/>
+</session>

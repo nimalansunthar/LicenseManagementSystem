@@ -1,0 +1,5 @@
+package com.lamin.authserver.config;
+
+public class JwtTokenConfig {
+
+}

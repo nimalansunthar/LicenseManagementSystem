@@ -1,0 +1,26 @@
+
+server:  port: 8081
+
+
+spring:
+  application:
+    name: licenses-service
+    
+ 
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: orgchangetopic
+                            
+eureka:  instance:    prefer-ip-address: true
+  client:    fetch-registry: true
+    register-with-eureka: true
+    service-url:      defaultzone: http://localhost:8761/eureka/
+      
+      
+logging:
+  level:    
+    com.netflix: error
+    org.springframework.web: error
+    com.lamin: info

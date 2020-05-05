@@ -1,0 +1,5 @@
+package com.lamin.zuul.models;
+
+public class AbTestingRoute {
+
+}

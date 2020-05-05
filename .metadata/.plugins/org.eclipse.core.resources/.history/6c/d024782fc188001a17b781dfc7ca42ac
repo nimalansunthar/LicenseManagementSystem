@@ -1,0 +1,9 @@
+package com.lamin.licenses.events;
+
+public interface CustomChannels {
+
+    @Input("inboundOrgChanges")
+
+    SubscribableChannel orgs();
+
+}

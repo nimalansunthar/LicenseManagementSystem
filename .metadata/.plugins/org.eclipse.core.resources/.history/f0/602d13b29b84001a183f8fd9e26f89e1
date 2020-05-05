@@ -1,0 +1,7 @@
+package com.lamin.producer.model;
+
+public class Book {
+
+    private int id;
+    private String name;
+}

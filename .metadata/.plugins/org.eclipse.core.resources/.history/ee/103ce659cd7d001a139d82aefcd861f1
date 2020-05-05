@@ -1,0 +1,5 @@
+package com.lamin.licenses;
+
+public class UserContextHolder {
+
+}

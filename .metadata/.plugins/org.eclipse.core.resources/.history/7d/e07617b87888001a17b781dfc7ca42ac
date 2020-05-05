@@ -1,0 +1,15 @@
+package com.lamin.licenses.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ServiceConfig{
+
+  
+  private String exampleProperty="";
+
+  public String getExampleProperty(){
+
+    return exampleProperty;
+  }
+}

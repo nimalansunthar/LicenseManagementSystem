@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;OrganizationChangeModel.java&apos; to &apos;licenses-service/src/main/java/com.lamin.licenses.events&apos;&#x0D;&#x0A;- Original project: &apos;organization-service&apos;&#x0D;&#x0A;- Destination element: &apos;licenses-service/src/main/java/com.lamin.licenses.events&apos;&#x0D;&#x0A;- Original element: &apos;com.lamin.organization.event.model.OrganizationChangeModel.java&apos;" description="Copy compilation unit" destination="=licenses-service/src\/main\/java&lt;com.lamin.licenses.events" element1="/src\/main\/java&lt;com.lamin.organization.event.model{OrganizationChangeModel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1587462450438" units="1" version="1.0"/>
+</session>

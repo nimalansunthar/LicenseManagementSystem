@@ -1,0 +1,397 @@
+2020-05-01 12:41:19.040  INFO [organizations-service,,,] 20500 --- [main] c.l.o.OrganizationServiceApplication     : No active profile set, falling back to default profiles: default
+2020-05-01 12:41:23.179  INFO [organizations-service,,,] 20500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-01 12:41:23.422  INFO [organizations-service,,,] 20500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 215ms. Found 1 JPA repository interfaces.
+2020-05-01 12:41:23.989  WARN [organizations-service,,,] 20500 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-05-01 12:41:25.096  INFO [organizations-service,,,] 20500 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fa58b22b-372f-3b57-aba4-d8134bebed70
+2020-05-01 12:41:25.515  INFO [organizations-service,,,] 20500 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-05-01 12:41:25.536  INFO [organizations-service,,,] 20500 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-05-01 12:41:25.564  INFO [organizations-service,,,] 20500 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-05-01 12:41:26.705  INFO [organizations-service,,,] 20500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 12:41:26.724  INFO [organizations-service,,,] 20500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 12:41:26.876  INFO [organizations-service,,,] 20500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 12:41:26.930  INFO [organizations-service,,,] 20500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 12:41:26.974  INFO [organizations-service,,,] 20500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 12:41:26.997  INFO [organizations-service,,,] 20500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 12:41:28.526  INFO [organizations-service,,,] 20500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-05-01 12:41:28.555  INFO [organizations-service,,,] 20500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-01 12:41:28.557  INFO [organizations-service,,,] 20500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 12:41:29.143  INFO [organizations-service,,,] 20500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-01 12:41:33.947  INFO [organizations-service,,,] 20500 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-01 12:41:37.227  INFO [organizations-service,,,] 20500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-01 12:41:38.050  INFO [organizations-service,,,] 20500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-01 12:41:38.487  INFO [organizations-service,,,] 20500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-01 12:41:38.863  INFO [organizations-service,,,] 20500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2020-05-01 12:41:40.752  INFO [organizations-service,,,] 20500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-01 12:41:41.191  INFO [organizations-service,,,] 20500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-01 12:41:41.212  WARN [organizations-service,,,] 20500 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-05-01 12:41:41.213  WARN [organizations-service,,,] 20500 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "organizations" does not exist, skipping
+2020-05-01 12:41:41.545  INFO [organizations-service,,,] 20500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-01 12:41:41.581  INFO [organizations-service,,,] 20500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 12:41:43.721  WARN [organizations-service,,,] 20500 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-05-01 12:41:43.971  WARN [organizations-service,,,] 20500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-01 12:41:45.279  INFO [organizations-service,,,] 20500 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:41:46.387  INFO [organizations-service,,,] 20500 --- [main] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-05-01 12:41:46.449  INFO [organizations-service,,,] 20500 --- [main] c.f.c.c.BeanFactoryAwareFunctionRegistry : Looking up function 'null' with acceptedOutputTypes: []
+2020-05-01 12:41:47.518  INFO [organizations-service,,,] 20500 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 906d4cb9-dbb0-4300-82aa-61312f3a6aa9
+
+2020-05-01 12:41:48.552  INFO [organizations-service,,,] 20500 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3555d804, org.springframework.security.web.context.SecurityContextPersistenceFilter@23dda7a3, org.springframework.security.web.header.HeaderWriterFilter@229fe7ab, org.springframework.security.web.authentication.logout.LogoutFilter@6258f9d1, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@1a99692, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@200e6029, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34be7efb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b8f1bd, org.springframework.security.web.session.SessionManagementFilter@1f602930, org.springframework.security.web.access.ExceptionTranslationFilter@29693b1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e54bef6]
+2020-05-01 12:41:51.171  WARN [organizations-service,,,] 20500 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-01 12:41:52.073  INFO [organizations-service,,,] 20500 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-01 12:41:52.993  INFO [organizations-service,,,] 20500 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel output
+2020-05-01 12:41:53.295  INFO [organizations-service,,,] 20500 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-05-01 12:41:53.459  INFO [organizations-service,,,] 20500 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-05-01 12:41:53.549  INFO [organizations-service,,,] 20500 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-05-01 12:41:53.681  INFO [organizations-service,,,] 20500 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-01 12:41:53.683  INFO [organizations-service,,,] 20500 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-05-01 12:41:53.685  INFO [organizations-service,,,] 20500 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-05-01 12:41:56.171  INFO [organizations-service,,,] 20500 --- [main] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: orgchangetopic
+2020-05-01 12:41:56.177  INFO [organizations-service,,,] 20500 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2020-05-01 12:41:56.410  INFO [organizations-service,,,] 20500 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-05-01 12:41:56.411  INFO [organizations-service,,,] 20500 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-05-01 12:41:56.413  INFO [organizations-service,,,] 20500 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1588329716404
+2020-05-01 12:43:56.615 ERROR [organizations-service,,,] 20500 --- [main] o.s.cloud.stream.binding.BindingService  : Failed to create producer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:325) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:147) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:78) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:222) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:90) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindProducer(AbstractBinder.java:152) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.doBindProducer(BindingService.java:296) [spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.bindProducer(BindingService.java:271) [spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binding.AbstractBindableProxyFactory.createAndBindOutputs(AbstractBindableProxyFactory.java:136) [spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binding.OutputBindingLifecycle.doStartWithBindable(OutputBindingLifecycle.java:58) [spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608) ~[na:1.8.0_171]
+	at org.springframework.cloud.stream.binding.AbstractBindingLifecycle.start(AbstractBindingLifecycle.java:57) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binding.OutputBindingLifecycle.start(OutputBindingLifecycle.java:34) [spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.lamin.organization.OrganizationServiceApplication.main(OrganizationServiceApplication.java:17) ~[classes/:na]
+Caused by: java.util.concurrent.TimeoutException: null
+	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.3.1.jar:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.3.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:361) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:335) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:312) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	... 27 common frames omitted
+
+2020-05-01 12:43:56.868  INFO [organizations-service,,,] 20500 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-05-01 12:44:08.601  INFO [organizations-service,,,] 20500 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORGANIZATIONS-SERVICE with eureka with status UP
+2020-05-01 12:44:08.871  INFO [organizations-service,,,] 20500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-05-01 12:44:08.875  INFO [organizations-service,,,] 20500 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-05-01 12:44:10.633  INFO [organizations-service,,,] 20500 --- [main] c.l.o.OrganizationServiceApplication     : Started OrganizationServiceApplication in 178.009 seconds (JVM running for 182.15)
+2020-05-01 12:44:26.648  INFO [organizations-service,571a46f5e18d9832,571a46f5e18d9832,false] 20500 --- [task-scheduler-1] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: orgchangetopic
+2020-05-01 12:44:26.653  INFO [organizations-service,571a46f5e18d9832,571a46f5e18d9832,false] 20500 --- [task-scheduler-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2020-05-01 12:44:26.684  INFO [organizations-service,571a46f5e18d9832,571a46f5e18d9832,false] 20500 --- [task-scheduler-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-05-01 12:44:26.686  INFO [organizations-service,571a46f5e18d9832,571a46f5e18d9832,false] 20500 --- [task-scheduler-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-05-01 12:44:26.686  INFO [organizations-service,571a46f5e18d9832,571a46f5e18d9832,false] 20500 --- [task-scheduler-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1588329866683
+2020-05-01 12:46:26.801 ERROR [organizations-service,571a46f5e18d9832,571a46f5e18d9832,false] 20500 --- [task-scheduler-1] o.s.cloud.stream.binding.BindingService  : Failed to create producer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:325) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:147) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:78) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:222) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:90) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindProducer(AbstractBinder.java:152) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleProducerBinding$2(BindingService.java:319) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.sleuth.instrument.async.TraceRunnable.run(TraceRunnable.java:67) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_171]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_171]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_171]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_171]
+Caused by: java.util.concurrent.TimeoutException: null
+	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.3.1.jar:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.3.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:361) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:335) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:312) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	... 15 common frames omitted
+
+2020-05-01 12:46:56.804  INFO [organizations-service,571a46f5e18d9832,47ab4fea477290a0,false] 20500 --- [task-scheduler-2] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: orgchangetopic
+2020-05-01 12:46:56.807  INFO [organizations-service,571a46f5e18d9832,47ab4fea477290a0,false] 20500 --- [task-scheduler-2] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2020-05-01 12:46:56.826  INFO [organizations-service,571a46f5e18d9832,47ab4fea477290a0,false] 20500 --- [task-scheduler-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-05-01 12:46:56.828  INFO [organizations-service,571a46f5e18d9832,47ab4fea477290a0,false] 20500 --- [task-scheduler-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-05-01 12:46:56.829  INFO [organizations-service,571a46f5e18d9832,47ab4fea477290a0,false] 20500 --- [task-scheduler-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1588330016826
+2020-05-01 12:48:56.900 ERROR [organizations-service,571a46f5e18d9832,47ab4fea477290a0,false] 20500 --- [task-scheduler-2] o.s.cloud.stream.binding.BindingService  : Failed to create producer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:325) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:147) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:78) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:222) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:90) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindProducer(AbstractBinder.java:152) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleProducerBinding$2(BindingService.java:319) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.sleuth.instrument.async.TraceRunnable.run(TraceRunnable.java:67) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_171]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_171]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_171]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_171]
+Caused by: java.util.concurrent.TimeoutException: null
+	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.3.1.jar:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.3.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:361) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:335) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:312) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	... 15 common frames omitted
+
+2020-05-01 12:49:26.906  INFO [organizations-service,571a46f5e18d9832,5fa31cfa51bb205a,false] 20500 --- [task-scheduler-1] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: orgchangetopic
+2020-05-01 12:49:26.908  INFO [organizations-service,571a46f5e18d9832,5fa31cfa51bb205a,false] 20500 --- [task-scheduler-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2020-05-01 12:49:26.922  INFO [organizations-service,571a46f5e18d9832,5fa31cfa51bb205a,false] 20500 --- [task-scheduler-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.3.1
+2020-05-01 12:49:26.923  INFO [organizations-service,571a46f5e18d9832,5fa31cfa51bb205a,false] 20500 --- [task-scheduler-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 18a913733fb71c01
+2020-05-01 12:49:26.923  INFO [organizations-service,571a46f5e18d9832,5fa31cfa51bb205a,false] 20500 --- [task-scheduler-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1588330166922
+2020-05-01 12:51:25.812  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-05-01 12:51:25.815  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORGANIZATIONS-SERVICE with eureka with status DOWN
+2020-05-01 12:51:25.834  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-05-01 12:51:25.835  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2020-05-01 12:51:25.836  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2020-05-01 12:51:25.853  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:51:25.861  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-01 12:51:25.862  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-05-01 12:51:25.904  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-05-01 12:51:25.908 ERROR [organizations-service,571a46f5e18d9832,5fa31cfa51bb205a,false] 20500 --- [task-scheduler-1] o.s.cloud.stream.binding.BindingService  : Failed to create producer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:325) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:147) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:78) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:222) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:90) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindProducer(AbstractBinder.java:152) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleProducerBinding$2(BindingService.java:319) ~[spring-cloud-stream-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.sleuth.instrument.async.TraceRunnable.run(TraceRunnable.java:67) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_171]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_171]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_171]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_171]
+Caused by: java.util.concurrent.TimeoutException: null
+	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.3.1.jar:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.3.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:361) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:335) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:312) ~[spring-cloud-stream-binder-kafka-core-3.0.3.RELEASE.jar:3.0.3.RELEASE]
+	... 15 common frames omitted
+
+2020-05-01 12:51:25.916  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-01 12:51:25.957  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-01 12:51:25.967  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'output'
+2020-05-01 12:51:25.968  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2020-05-01 12:51:25.969  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2020-05-01 12:51:25.969  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-05-01 12:51:29.809  INFO [organizations-service,,,] 20500 --- [RMI TCP Connection(16)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]

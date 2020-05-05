@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8761
+ADD target/eureka-server.jar spmia/eureka-server.jar
+ENTRYPOINT ["java", "-jar","spmia/eureka-server.jar"]

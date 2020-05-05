@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: licenses-service
+    
+eureka:  instance:    prefer-ip-address: true
+  client:    fetch-registry: true
+    register-with-eureka: true
+    service-url:      defaultzone: http://localhost:8761/eureka/
+      
+      
+logging:
+  level:
+    root: error
+#    org.springframework: debug
+#    com.lamin.cems: debug

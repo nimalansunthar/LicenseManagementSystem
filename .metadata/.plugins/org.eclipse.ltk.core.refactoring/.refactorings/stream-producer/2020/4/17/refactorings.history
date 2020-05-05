@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Book.java&apos; to &apos;stream-consumer/src/main/java/com.lamin.consumer.model&apos;&#x0D;&#x0A;- Original project: &apos;stream-producer&apos;&#x0D;&#x0A;- Destination element: &apos;stream-consumer/src/main/java/com.lamin.consumer.model&apos;&#x0D;&#x0A;- Original element: &apos;com.lamin.producer.model.Book.java&apos;" description="Copy compilation unit" destination="=stream-consumer/src\/main\/java&lt;com.lamin.consumer.model" element1="/src\/main\/java&lt;com.lamin.producer.model{Book.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1587566927097" units="1" version="1.0"/>
+</session>

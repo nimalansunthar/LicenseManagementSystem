@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: auth-server
+      profiles:    active:    - default
+logging:  level:    org.springframework.web: error
+    
+server:  port: 9500  servlet:    context-path: /auth

@@ -1,0 +1,5 @@
+package com.lamin.consumer.model;
+
+public class Book {
+
+}

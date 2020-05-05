@@ -1,0 +1,13 @@
+package com.lamin.licenses.config;
+
+@Component
+public class ServiceConfig{
+
+  @Value("${example.property}")
+  private String exampleProperty="";
+
+  public String getExampleProperty(){
+
+    return exampleProperty;
+  }
+}
